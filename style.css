@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+    
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+    
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.menu{
+width: 1600px;
+height: 75px;
+background: #222222;
+margin: auto;
+display: flex;
+justify-content: space-between;
+padding: 18px 240px 19px 231px;
+}
+
+.imglogo{
+    width: 111px;
+    height: 38px;
+    /* margin:auto; */
+    
+    
+
+}
+
+.imgbtn{
+    width: 159px;
+    height: 29px;  
+    /* margin: auto; */ 
+    padding-top: 1px;
+}
+.avatar{
+    margin: auto;
+    display: flex;
+    background: #F1E4E6;
+    width: 1600px;
+   
+}
+
+.hdrtxt{
+    border-left: solid;
+    border-color: #F16D7F;
+    border-left-width: 12px;
+    padding-left: 16px;
+    justify-content: center;
+    margin: 290px 331px 381px 91px;
+    height: 93px;
+    position: absolute;
+    padding-top: 15px;
+    width: 900px;
+
+}
+.hdrtxt h1{
+    font-size: 48px;
+}
+.hdrtxt h1{
+    font-size: 32px;
+}
+
+.mainmenu{
+    margin-top: 65px;
+    gap: 30px;
+   
+}
+.menutop{
+    width: 1138px;
+    height: 180px;
+    margin:auto;
+    gap: 30px;
+    display: flex;
+   
+    
+}
+.menubottom{
+    width: 1138px;
+    height: 180px;
+    margin:auto;
+
+}
+
+.leftblock{
+    background-image: url("./img/Layer43.png");
+    width: 360px;
+    height: 260px;
+    filter: brightness(40%);
+    text-align: center;
+    padding-top: 105px;
+    
+
+
+}
+
+.centerblock{
+    background-image: url("./img/man.png");
+    width: 360px;
+    height: 260px;
+    filter: brightness(40%);
+    text-align: center;
+    padding-top: 105px;
+}
+.rightblock{
+    background-image: url("./img/kids.png");
+    width: 360px;
+    height: 260px;
+    filter: brightness(40%); 
+    text-align: center;
+    padding-top: 105px;
+      
+}
+.bottomblock{
+    background-image: url("./img/Rectangle20.png");
+    width: 1140 px;
+    height: 180px;
+    margin-top: 115px; 
+   
+    text-align: center;
+    padding-top: 65px;    
+}
+
+.mainmenu h1{
+    color: #F16D7F;
+}
+.mainmenu h3{
+    color: #FFFFFF;
+}
+.txt{
+    margin-top: 96px;
+    text-align: center;
+}
+.txt h1{
+    font-size: 30px;
+    font-family: ;
+}
+.txt p{
+    font-size: 14px;
+    font-family: ;
+    margin-bottom: 48px;
+}
+
+.navblock{
+    width: 1140px;
+    height: 1395px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.blocks{
+
+}
+
+
